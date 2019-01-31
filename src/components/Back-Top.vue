@@ -71,8 +71,8 @@ export default {
 }
 </script>
 
+<style lang="css" scoped src="@/assets/iconfont.css"></style>
 <style scoped lang="scss">
-@import '~@/assets/iconfont.css';
 .back-top {
     position: fixed;
     &__icon {

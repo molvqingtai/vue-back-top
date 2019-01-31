@@ -1,16 +1,55 @@
 <!DOCTYPE html>
 <html lang="zh" dir="ltr">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
   <title>vue-back-top</title>
+  <script src="https://unpkg.com/vue" charset="utf-8"></script>
+  <script src="https://unpkg.com/@mlqt/vue-back-top" charset="utf-8"></script>
+  <style media="screen">
+    body{
+      height: 5vh;
+
+    }
+    section{
+      width:1200px;
+      min-width: 1200px;
+      margin: 0 auto;
+      height: 100vh;
+      opacity: .5;
+    }
+    section:nth-child(1){
+      background-color: #409EFF;
+    }
+    section:nth-child(2){
+      background-color: #67C23A;
+    }
+    section:nth-child(3){
+      background-color: #E6A23C;
+    }
+    section:nth-child(4){
+      background-color: #F56C6C;
+    }
+    section:nth-child(5){
+      background-color: #909399;
+    }
+  </style>
 </head>
+
 <body>
   <div id="app">
     <main>
-        <section v-for="n in 5" :key="n"></section>
+      <section v-for="n in 5" :key="n"></section>
     </main>
+
+    <!--  Use -->
     <back-top></back-top>
   </div>
+
+  <script type="text/javascript">
+    new Vue().$mount('#app')
+  </script>
 </body>
+
 </html>

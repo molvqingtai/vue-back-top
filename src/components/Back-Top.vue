@@ -59,11 +59,9 @@ export default {
     }
   },
   mounted () {
-    console.log(1)
     window.addEventListener('scroll', this.listenerScroll)
   },
   activated () {
-    console.log(2)
     window.removeEventListener('scroll', this.listenerScroll)
     window.addEventListener('scroll', this.listenerScroll)
   },
@@ -88,6 +86,7 @@ export default {
         box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
         cursor: pointer;
         user-select: none;
+        transform-origin: right center;
         &:active {
             opacity: 0.9;
             box-shadow: 0 0 5px 0 rgba(0,0,0,.1);

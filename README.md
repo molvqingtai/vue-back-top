@@ -1,6 +1,6 @@
 # vue-back-top
 
-![](https://img.shields.io/github/license/molvqingtai/vue-back-top.svg) ![](https://img.shields.io/github/size/molvqingtai/vue-scroll-loader/dist/back-top.umd.min.js.svg) ![](https://img.shields.io/npm/dt/@mlqt/vue-back-top.svg) ![](https://img.shields.io/npm/v/@mlqt/vue-back-top.svg)
+![](https://img.shields.io/github/license/molvqingtai/vue-back-top.svg) ![](https://img.shields.io/github/size/molvqingtai/vue-back-top/dist/back-top.umd.min.js.svg) ![](https://img.shields.io/npm/dt/@mlqt/vue-back-top.svg) ![](https://img.shields.io/npm/v/@mlqt/vue-back-top.svg)
 
 A back top component for vue.js.
 
@@ -35,7 +35,7 @@ When the scroll bar height is greater than 100vh, **back-top** is display, other
 
 <!-- Replace the default icon with slot -->
 <back-top>
-   <i>Icon<i>
+    <div>Icon</div>
 </back-top>
 ```
 

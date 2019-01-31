@@ -18,7 +18,7 @@ export default {
     },
     'bottom': {
       type: String,
-      default: '10%'
+      default: '20%'
     },
     'color': {
       type: String,

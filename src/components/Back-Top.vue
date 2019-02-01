@@ -86,7 +86,6 @@ export default {
         box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
         cursor: pointer;
         user-select: none;
-        transform-origin: right center;
         &:active {
             opacity: 0.9;
             box-shadow: 0 0 5px 0 rgba(0,0,0,.1);

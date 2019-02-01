@@ -75,6 +75,8 @@ export default {
 <style scoped lang="scss">
 .back-top {
     position: fixed;
+    cursor: pointer;
+    user-select: none;
     &__icon {
         display: flex;
         width: 35px;

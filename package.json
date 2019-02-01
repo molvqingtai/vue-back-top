@@ -1,6 +1,6 @@
 {
   "name": "@mlqt/vue-back-top",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Back to top for vue.js",
   "main": "dist/back-top.umd.js",
   "scripts": {

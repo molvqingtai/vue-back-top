@@ -57,8 +57,8 @@ new Vue().$mount('#app')
 | right  | Back-top distance to the right                               | false        | String | 3%      |
 | bottom | Back-top distance to the bottom                              | false        | String | 20%     |
 | color  | Back-top color                                               | false        | String | #409EFF |
-| :size   | Back-top size                                                | false        | Number | 1       |
-| :slow   | Back-top The speed of scrolling, the larger the value, the slower the scrolling | false        | Number | 10      |
+| size   | Back-top size                                                | false        | Number | 1       |
+| slow   | Back-top The speed of scrolling, the larger the value, the slower the scrolling | false        | Number | 10      |
 
 
 
